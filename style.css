@@ -1,0 +1,795 @@
+:root {
+  --main: #225779;
+  --mint: #37a3a5;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.mint {
+  color: var(--mint);
+}
+
+.navbar {
+  background: var(--main);
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+button.btn.loginbtn {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fff;
+  margin-right: 20px;
+}
+button.btn.navheaderbuttonsmall{
+  display: none;
+
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.fontfamily {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: right;
+}
+
+.fontfamily i {
+  color: var(--main);
+  vertical-align: middle;
+}
+
+.roundimages {
+  position: relative;
+
+  
+  /* margin-left: 30px; */
+}
+
+.imagebehind {
+  position: absolute;
+  left: -100px;
+  z-index: -3;
+  min-width: 700px;
+  margin-right: 20px;
+  height: auto;
+  object-fit: cover;
+  margin-right: -100px;
+  
+}
+
+.imagebehind .factoryworkers{
+  height: 550px;
+  position: absolute;
+  left: -250px;
+  width: 100%;
+  overflow-x: hidden;
+  
+}
+
+.relativecontainer{
+  position: relative;
+  width: 100%;
+}
+
+.businessesentialcourses {
+  position: absolute;
+  background-color: #fff;
+  width: 1211px;
+  height: 322px;
+left: -60px;
+right: 20px;
+top: 40px;
+border-radius: 0px;
+padding: 30 100px;
+
+
+}
+
+.relativecontainer .backgroundcircles {
+  position: absolute;
+  z-index: -3;
+  height: auto;
+  top: 30px;
+  width: 976px;
+  left: -399px;
+  border-radius: 0px;
+}
+
+.backgroundcirclesoneimage{
+  top: 0px;
+  position: absolute;
+  z-index: -4;
+}
+
+.businesscoursessubheader{
+  font-family: Roboto;
+font-size: 20px;
+font-style: light;
+font-weight: 300;
+line-height: 23px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+.backgroundcirclesoneimagetwo{
+  position: absolute;
+  z-index: -4;
+}
+
+.businessesentialcourses h2 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  z-index: 2;
+}
+
+.header {
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  
+}
+
+.businessheader{
+  font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: 59px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+.boxes {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+  
+}
+
+.box {
+  padding: 1rem;
+  background: var(--mint);
+  margin: 10px;
+  color: var(--main);
+  background: #E2F0F0;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in;
+}
+
+.box .mr-4{
+  color: var(--mint);
+}
+
+.btn.requestproposal {
+  border: 1px solid #225779;
+  border-radius: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: var(--main);
+}
+
+.instructorprofile{
+  text-align: center;
+}
+
+.instructorheader {
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: bold;
+  font-weight: 900;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  
+}
+
+.instructorprofile img{
+  height: 224px;
+  width: 170px;
+  border-radius: 50%;
+  
+}
+
+.instructortitle{
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: -0.03em;
+text-align: center;
+
+}
+
+.subheadermiddlerow{
+  font-family: Roboto;
+font-size: 25px;
+font-style: light;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+
+
+.topmiddlerow{
+  border-bottom: 1px solid var(--mint);
+}
+
+.globalborderbottom{
+  border-bottom: 1px solid var(--mint);
+}
+
+.globalborderbottom .fa-arrow-up{
+  color: var(--main);
+}
+.maintextmiddlerow{
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+.middlerowform{
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+.middlerowform input[type='text'],
+input[type='email']{
+  background: #edeeee;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 360px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+
+}
+textarea#attendeestextarea.form-control{
+  background: #edeeee;
+  border-radius: 20px;
+  padding: 20px;
+  width: 360px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  width: 80%;
+  
+
+}
+.middlerowform label{
+  padding-bottom: 8px;
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+.btn.mt-4.registerbtn {
+  border: 1px solid #225779;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: var(--main);
+}
+
+.bottommiddletitle.header{
+  font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 900;
+line-height: 29px;
+letter-spacing: -0.03em;
+text-align: left;
+
+
+}
+
+.bottommiddletitle.bottommiddleparagraph{
+  font-family: Roboto;
+font-size: 16px;
+font-style: light;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+.recharge {
+  border-bottom: 1px solid var(--mint);
+  padding-bottom: 50px;
+}
+
+.recharge ol{
+  padding-bottom: 30px;
+}
+
+.recharge h3 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: var(--main);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.purple {
+  background: #bea9ec;
+  height: 20px;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: var(--main);
+}
+
+ol.carousel-indicators {
+  bottom: -50px;
+  right: 20px;
+  color: var(--main);
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.allcourses .card-title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.allcourses .card-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
+.allcourses .card-subtitle {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  color: var(--mint);
+}
+
+.allcoursesparagraph {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.allcoursesparagraph i {
+  font-size: 4px;
+  color: var(--mint);
+  vertical-align: middle;
+}
+
+.dateallcourses {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+
+.reviews {
+  background-color: var(--main);
+  border-bottom: 1px solid rgb(39, 39, 39);
+  padding-bottom: 30px;
+}
+
+.reviews h1 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 47px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+#carouselLearningIndicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: var(--mint);
+}
+
+ol #carousellearning {
+  bottom: -50px;
+  right: 20px;
+  color: var(--main);
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.teamlearning {
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fff;
+}
+
+.reviewscontent{
+  padding: 30px;
+}
+
+.occupation {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fff;
+}
+
+.subscribetonewsletter p.newsletter.h1 {
+  font-family: Roboto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 79px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  color: #bbb6b6;
+}
+
+.newsletterform input[type='text'],
+input[type='email'] {
+  padding: 30px;
+  background: #edeeee;
+  border-radius: 10px;
+}
+
+.newsletterform label {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+#subscribebtn {
+  background-color: var(--main);
+  height: 60px;
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+  
+}
+
+
+@media (max-width: 768px) {
+
+  .upcomingscheduleresponsive {
+    margin-bottom: 50px;
+    /* position: absolute;
+    top: -400px;
+    left: 190px;
+    z-index: -3;
+    width: 900px;
+    height: auto;
+    object-fit: cover;
+    margin-right: -100px; */
+  }
+}
+@media (max-width: 992px) {
+  button.btn.navheaderbuttonsmall{
+    display: block;
+  }
+
+}
+@media (max-width: 750px) {
+
+  body{
+    overflow-x: hidden;
+  }
+  .logoimage{
+    width: 70px;
+    height: 70px;
+  }
+
+  .globalborderbottom .header{
+    font-size: 20px;
+    line-height: 26px;
+    
+  }
+
+  .globalborderbottom p{
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .globalborderbottom .fa-arrow-up{
+    margin-top: 20px;
+  }
+
+  .gridmiddlerow{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .fontfamily .justify-content-md-end {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  .imagebehind .factoryworkers{
+    /* left: -50px;
+    height: 300px; */
+    position: relative;
+    left: -190px;
+    z-index: -3;
+    height: auto;
+    top: -350px;
+    object-fit: cover;
+    bottom: 20px;
+    max-width: 600px;
+    height: 400px;
+
+  }
+
+  .businessesentialcourses {
+    position: absolute;
+    width: 1211px;
+    height: 322px;
+    background: none;
+  left: -35px;
+  right: 20px;
+  top: 20px;
+  border-radius: 0px;
+  padding: 30 100px;
+  background-color: rgba(194, 194, 194, 0.5);
+  
+  
+  }
+  .businessesentialcourses img {
+    /* position: absolute;
+    z-index: -1;
+    height: 18px;
+    width: 476px;
+    left: -199px;
+    border-radius: 0px; */
+  }
+
+  .relativecontainer{
+    overflow: hidden;
+  }
+
+ #firstsection {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .businessesentialcourses h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .instructorheader{
+    font-size: 15px;
+    line-height: 24px;
+    
+  }
+
+  p.instructorstitle{
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .instructorprofile img{
+    width: 90px;
+    height: 70px;
+  }
+
+  .businesscoursessubheader{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 13px;
+  
+  }
+  .imagebehind {
+    position: absolute;
+    left: -20px;
+    z-index: -1;
+  }
+
+  .header {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .recharge .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+
+  .allcoursescards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 30px;
+  }
+
+  #cardslocation {
+    display: none;
+  }
+
+  .subscribetonewsletter p.newsletter.h1 {
+    font-size: 35px;
+    line-height: 39px;
+    color: #bbb6b6;
+  }
+
+  .reviews h1 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .teamlearning{
+    padding-left: 20px;
+  }
+  p.occupation{
+    padding-left: 30px;
+  }
+
+  button.btn.loginbtn {
+ display: none;
+  }
+
+  button.btn.navheaderbuttonsmall{
+    display: block;
+  }
+
+  .businessheader{
+  font-size: 35px;
+  line-height: 39px;
+
+  
+  }
+}
